@@ -1,2 +1,2 @@
 # electrifier
-Windows Desktop Enhancement Suite
+integrated desktop enhancement
