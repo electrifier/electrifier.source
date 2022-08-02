@@ -1,2 +1,2 @@
 # electrifier
-integrated desktop enhancement
+integrated desktop electrifier
