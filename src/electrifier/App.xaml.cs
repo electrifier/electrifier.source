@@ -68,9 +68,18 @@ public partial class App : Application
             services.AddSingleton<INavigationService, NavigationService>();
 
             // Core Services
+            services.AddSingleton<ISampleDataService, SampleDataService>();
             services.AddSingleton<IFileService, FileService>();
 
             // Views and ViewModels
+            services.AddTransient<NotesViewModel>();
+            services.AddTransient<NotesPage>();
+            services.AddTransient<BrowseNetworkViewModel>();
+            services.AddTransient<BrowseNetworkPage>();
+            services.AddTransient<ClipboardViewModel>();
+            services.AddTransient<ClipboardPage>();
+            services.AddTransient<FilesFoldersViewModel>();
+            services.AddTransient<FilesFoldersPage>();
             services.AddTransient<SettingsViewModel>();
             services.AddTransient<SettingsPage>();
             services.AddTransient<WebViewViewModel>();

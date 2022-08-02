@@ -1,2 +1,5 @@
 # electrifier
-Windows Desktop Enhancement Suite
+integrated desktop enhancement
+
+## Note: electrifier is still under development
+
