@@ -1,2 +1,4 @@
 # electrifier
-Windows Desktop Enhancement Suite
+interated desktop electrifier
+
+(c) 2022 tajbender @ electrifier.org
