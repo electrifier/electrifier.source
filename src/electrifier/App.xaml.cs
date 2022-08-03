@@ -72,6 +72,8 @@ public partial class App : Application
             services.AddSingleton<IFileService, FileService>();
 
             // Views and ViewModels
+            services.AddTransient<YourKeePass_PasswordsViewModel>();
+            services.AddTransient<YourKeePass_PasswordsPage>();
             services.AddTransient<ListDetailsViewModel>();
             services.AddTransient<ListDetailsPage>();
             services.AddTransient<NotesViewModel>();

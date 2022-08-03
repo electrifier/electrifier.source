@@ -17,7 +17,7 @@ namespace electrifier.ViewModels;
 public class WebViewViewModel : ObservableRecipient, INavigationAware
 {
     // TODO: Set the default URL to display.
-    private Uri _source = new("https://github.com/electrifier/electrifier");
+    private Uri _source = new("https://www.bing.com/search?q=electrifier");
     private bool _isLoading = true;
     private bool _hasFailures;
 

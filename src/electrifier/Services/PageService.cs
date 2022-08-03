@@ -22,6 +22,7 @@ public class PageService : IPageService
         Configure<BrowseNetworkViewModel, BrowseNetworkPage>();
         Configure<NotesViewModel, NotesPage>();
         Configure<ListDetailsViewModel, ListDetailsPage>();
+        Configure<YourKeePass_PasswordsViewModel, YourKeePass_PasswordsPage>();
     }
 
     public Type GetPageType(string key)

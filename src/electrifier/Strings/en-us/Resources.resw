@@ -184,7 +184,7 @@
     <value>integrated desktop electrifier.</value>
   </data>
   <data name="SettingsPage_PrivacyTermsLink.Content" xml:space="preserve">
-    <value>Privacy Statement</value>
+    <value>This is free software. Privacy Statement</value>
   </data>
   <data name="SettingsPage_PrivacyTermsLink.NavigateUri" xml:space="preserve">
     <value>https://github.com/electrifier/electrifier/blob/gui_design_initial/LICENSE</value>
@@ -203,7 +203,7 @@
   &lt;/actions&gt;
 &lt;/toast&gt;</value>
   </data>
-	<data name="Shell_FilesFolders.Content" xml:space="preserve">
+  <data name="Shell_FilesFolders.Content" xml:space="preserve">
     <value>Browse your Local Drives</value>
   </data>
   <data name="Shell_Clipboard.Content" xml:space="preserve">
@@ -219,12 +219,18 @@
     <value>Stick your Thoughts and Notes</value>
   </data>
   <data name="Shell_ListDetails.Content" xml:space="preserve">
-    <value>Play Some Music</value>
+    <value>Listen to some Music</value>
   </data>
-	<data name="FilesFolders_NoSelection.Text" xml:space="preserve">
+  <data name="FilesFolders_NoSelection.Text" xml:space="preserve">
     <value>Select an item from the list.</value>
   </data>
-	<data name="ListDetails_NoSelection.Text" xml:space="preserve">
+  <data name="ListDetails_NoSelection.Text" xml:space="preserve">
     <value>Select an item from the list.</value>
+  </data>
+  <data name="YourKeePass_Passwords_NoSelection.Text" xml:space="preserve">
+    <value>Select an item from the list.</value>
+  </data>
+  <data name="Shell_YourKeePass_Passwords.Content" xml:space="preserve">
+    <value>Your KeePass Passwords</value>
   </data>
 </root>
