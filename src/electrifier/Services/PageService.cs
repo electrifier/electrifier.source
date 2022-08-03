@@ -21,6 +21,7 @@ public class PageService : IPageService
         Configure<ClipboardViewModel, ClipboardPage>();
         Configure<BrowseNetworkViewModel, BrowseNetworkPage>();
         Configure<NotesViewModel, NotesPage>();
+        Configure<ListDetailsViewModel, ListDetailsPage>();
     }
 
     public Type GetPageType(string key)

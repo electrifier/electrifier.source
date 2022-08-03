@@ -48,11 +48,6 @@
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe70a;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
-                <NavigationViewItem x:Uid="Shell_WebView" helpers:NavigationHelper.NavigateTo="electrifier.ViewModels.WebViewViewModel">
-                    <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe774;"/>
-                    </NavigationViewItem.Icon>
-                </NavigationViewItem>
                 <NavigationViewItem x:Uid="Shell_FilesFolders" helpers:NavigationHelper.NavigateTo="electrifier.ViewModels.FilesFoldersViewModel">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xec50;"/>
@@ -63,6 +58,11 @@
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xf0e3;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
+                <NavigationViewItem x:Uid="Shell_WebView" helpers:NavigationHelper.NavigateTo="electrifier.ViewModels.WebViewViewModel">
+                    <NavigationViewItem.Icon>
+                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe774;"/>
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
                 <NavigationViewItem x:Uid="Shell_BrowseNetwork" helpers:NavigationHelper.NavigateTo="electrifier.ViewModels.BrowseNetworkViewModel">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe968;"/>
@@ -70,7 +70,14 @@
                 </NavigationViewItem>
                 <NavigationViewItem x:Uid="Shell_Notes" helpers:NavigationHelper.NavigateTo="electrifier.ViewModels.NotesViewModel">
                     <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
+                        <!-- Sticker2-->
+                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xf4aa;"/>
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+                <NavigationViewItem x:Uid="Shell_ListDetails" helpers:NavigationHelper.NavigateTo="electrifier.ViewModels.ListDetailsViewModel">
+                    <NavigationViewItem.Icon>
+                        <!-- MusicAlbum -->
+                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe93c;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
             </NavigationView.MenuItems>
