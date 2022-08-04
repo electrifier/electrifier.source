@@ -1,5 +1,5 @@
 # electrifier
-integrated desktop enhancement
+integrated desktop electrifier
 
 ## Note: electrifier is still under development
 
