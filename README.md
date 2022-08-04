@@ -1,4 +1,6 @@
 # electrifier
 integrated desktop electrifier
 
-(c) 2022 tajbender @ electrifier.org
+# This is work in progress.
+
+&copy; 2022 [tajbender](https://github.com/tajbender "tajbender on GitHub") on GitHub and  electrifier.org
