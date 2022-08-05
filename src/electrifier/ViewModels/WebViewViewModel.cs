@@ -16,8 +16,9 @@ namespace electrifier.ViewModels;
 // https://docs.microsoft.com/microsoft-edge/webview2/concepts/distribution
 public class WebViewViewModel : ObservableRecipient, INavigationAware
 {
-    // TODO: Set the default URL to display.
-    private Uri _source = new("https://docs.microsoft.com/windows/apps/");
+    // TOOD: Replace with real data.
+    // Note: Set appropriate default URL to display. I'm currently using bing home page.
+    private Uri _source = new("https://www.bing.com/search?q=electrifier");
     private bool _isLoading = true;
     private bool _hasFailures;
 

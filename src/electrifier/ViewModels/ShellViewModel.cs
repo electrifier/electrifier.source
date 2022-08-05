@@ -22,6 +22,8 @@ public class ShellViewModel : ObservableRecipient
         get;
     }
 
+
+
     public bool IsBackEnabled
     {
         get => _isBackEnabled;

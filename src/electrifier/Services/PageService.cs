@@ -17,6 +17,12 @@ public class PageService : IPageService
         Configure<MainViewModel, MainPage>();
         Configure<WebViewViewModel, WebViewPage>();
         Configure<SettingsViewModel, SettingsPage>();
+        Configure<FilesFoldersViewModel, FilesFoldersPage>();
+        Configure<ClipboardViewModel, ClipboardPage>();
+        Configure<BrowseNetworkViewModel, BrowseNetworkPage>();
+        Configure<NotesViewModel, NotesPage>();
+        Configure<ListDetailsViewModel, ListDetailsPage>();
+        Configure<YourKeePass_PasswordsViewModel, YourKeePass_PasswordsPage>();
     }
 
     public Type GetPageType(string key)
