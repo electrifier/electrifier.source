@@ -1,5 +1,6 @@
 # electrifier
-integrated desktop enhancement
+integrated desktop electrifier
 
-## Note: electrifier is still under development
+# This is work in progress.
 
+&copy; 2022 [tajbender](https://github.com/tajbender "tajbender on GitHub") and electrifier.org
