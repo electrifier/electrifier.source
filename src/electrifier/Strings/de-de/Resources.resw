@@ -181,7 +181,7 @@
     <value>über electrifier</value>
   </data>
   <data name="Settings_AboutDescription.Text" xml:space="preserve">
-    <value>integrierter Desktop electrifier</value>
+    <value>Integrierender Desktop Electrifier</value>
   </data>
   <data name="SettingsPage_PrivacyTermsLink.Content" xml:space="preserve">
     <value>
@@ -254,10 +254,10 @@
 &lt;/toast&gt;</value>
   </data>
   <data name="Shell_FilesFolders.Content" xml:space="preserve">
-    <value>Lokale Laufwerke</value>
+    <value>Laufwerke</value>
   </data>
   <data name="Shell_Clipboard.Content" xml:space="preserve">
-    <value>Zwischenablageverlauf</value>
+    <value>Zwischenablage</value>
   </data>
   <data name="BrowseNetwork_NoSelection.Text" xml:space="preserve">
     <value>Select an item from the list.</value>
@@ -266,10 +266,10 @@
     <value>Netzwerkumgebung</value>
   </data>
   <data name="Shell_Notes.Content" xml:space="preserve">
-    <value>Silence your Thoughts</value>
+    <value>Silence of Thoughts</value>
   </data>
   <data name="Shell_ListDetails.Content" xml:space="preserve">
-    <value>Musik hören</value>
+    <value>Musik</value>
   </data>
   <data name="FilesFolders_NoSelection.Text" xml:space="preserve">
     <value>Select an item from the list.</value>
@@ -281,6 +281,6 @@
     <value>Select an item from the list.</value>
   </data>
   <data name="Shell_YourKeePass_Passwords.Content" xml:space="preserve">
-    <value>Schlüssel und Passwörter</value>
+    <value>Passwörter</value>
   </data>
 </root>
