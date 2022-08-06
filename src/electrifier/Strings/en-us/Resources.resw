@@ -184,18 +184,53 @@
     <value>integrated desktop electrifier.</value>
   </data>
 	<data name="SettingsPage_PrivacyTermsLink.Content" xml:space="preserve">
-    <value>electrifier is free software. Our source codes can be found at https://github.com/electrifier/.
+    <value>
+		electrifier is free software.
 
-See Privacy Statement
+		Please contribute via GitHub.
+		https://github.com/electrifier/
 
-https://github.com/electrifier/electrifier/blob/main/LICENSE
+		See Privacy Statement.
+		https://github.com/electrifier/electrifier/blob/main/LICENSE
 
-Eine Scheunenproduktion. (c) 2022 tajbender, (c) 2022 electrifier.org.
 
-tajbender wants to say Hello to all my family, friends, Lucipetra, Silence of Thoughts, Nebel, Tierisch Aktiv, Dawnbreed, Monochrome, Psychotic Waltz, King’s X, Die Fantastischen Vier, Fettes Brot, and Sammy.
 
-I love and miss you, Mom. Mikesch.
-    </value>
+		eine Scheunenproduktion.
+		(c) 2022 tajbender, electrifier.org.
+	
+	
+		in love of my family. Papa. Sabine, Markus, Sandra. Sammy. Bruno. Charly.
+		Ali, Rainer, Floh.
+		
+		My Friends
+		Lucipetra-Posse
+		Bamberg
+		Tierisch-Aktiv.de
+
+		I love and miss you, Mom.
+		Opa.
+		Oma.
+
+		in love Mikesch.
+		Chuck Schuldiner
+		
+		
+		and all the others behind the rainbow.
+		
+		
+		Special thanks for Spiritual Healing.
+		Silence of Thoughts
+		Nebel
+		Dawnbreed
+		Monochrome
+		Psychotic Waltz
+		King’s X
+		Die Fantastischen Vier
+		Fettes Brot
+		Iron Maiden
+		
+
+	</value>
   </data>
 	<data name="SettingsPage_PrivacyTermsLink.NavigateUri" xml:space="preserve">
     <value>https://github.com/electrifier/electrifier/blob/main/README.md</value>
