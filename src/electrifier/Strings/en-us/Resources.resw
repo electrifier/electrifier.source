@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
+	<!-- 
     Microsoft ResX Schema 
     
     Version 2.0
@@ -59,137 +59,186 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
-              </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <data name="AppDisplayName" xml:space="preserve">
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.22.8</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="AppDisplayName" xml:space="preserve">
     <value>electrifier</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
+	<data name="AppDescription" xml:space="preserve">
     <value>electrifier</value>
   </data>
-  <data name="Shell_Main.Content" xml:space="preserve">
+	<data name="Shell_Main.Content" xml:space="preserve">
     <value>Workbench</value>
   </data>
-  <data name="WebView_Loading.Text" xml:space="preserve">
+	<data name="WebView_Loading.Text" xml:space="preserve">
     <value>Loading...</value>
   </data>
-  <data name="WebView_FailedMessage.Text" xml:space="preserve">
+	<data name="WebView_FailedMessage.Text" xml:space="preserve">
     <value>Page failed to load. Check connection and reload.</value>
   </data>
-  <data name="BrowserBackButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+	<data name="BrowserBackButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>Browser back</value>
   </data>
-  <data name="BrowserBackButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+	<data name="BrowserBackButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Browser back</value>
   </data>
-  <data name="BrowserForwardButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+	<data name="BrowserForwardButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>Browser forward</value>
   </data>
-  <data name="BrowserForwardButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+	<data name="BrowserForwardButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Browser forward</value>
   </data>
-  <data name="WebView_Reload.Content" xml:space="preserve">
+	<data name="WebView_Reload.Content" xml:space="preserve">
     <value>Reload</value>
   </data>
-  <data name="ReloadButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+	<data name="ReloadButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>Reload</value>
   </data>
-  <data name="ReloadButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+	<data name="ReloadButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Reload</value>
   </data>
-  <data name="OpenInBrowserButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+	<data name="OpenInBrowserButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>Open in browser</value>
   </data>
-  <data name="OpenInBrowserButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+	<data name="OpenInBrowserButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Open in browser</value>
   </data>
-  <data name="Shell_WebView.Content" xml:space="preserve">
+	<data name="Shell_WebView.Content" xml:space="preserve">
     <value>Browse the Web</value>
   </data>
-  <data name="Settings_Personalization.Text" xml:space="preserve">
+	<data name="Settings_Personalization.Text" xml:space="preserve">
     <value>Personalization</value>
   </data>
-  <data name="Settings_Theme.Text" xml:space="preserve">
+	<data name="Settings_Theme.Text" xml:space="preserve">
     <value>Theme</value>
   </data>
-  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+	<data name="Settings_Theme_Light.Content" xml:space="preserve">
     <value>Light</value>
   </data>
-  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+	<data name="Settings_Theme_Dark.Content" xml:space="preserve">
     <value>Dark</value>
   </data>
-  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+	<data name="Settings_Theme_Default.Content" xml:space="preserve">
     <value>Default</value>
   </data>
-  <data name="Settings_About.Text" xml:space="preserve">
-    <value>About this application</value>
+	<data name="Settings_About.Text" xml:space="preserve">
+    <value>about electrifier</value>
   </data>
-  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+	<data name="Settings_AboutDescription.Text" xml:space="preserve">
     <value>integrated desktop electrifier.</value>
   </data>
-  <data name="SettingsPage_PrivacyTermsLink.Content" xml:space="preserve">
-    <value>This is free software. Privacy Statement</value>
+	<data name="SettingsPage_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>
+		electrifier is free software.
+
+		Please contribute via GitHub.
+		https://github.com/electrifier/
+
+		See Privacy Statement.
+		https://github.com/electrifier/electrifier/blob/main/LICENSE
+
+
+		eine Scheunenproduktion.
+		(c) 2022 tajbender, electrifier.org.
+	
+		in love of all my families:
+		Papa. Sabine. Markus. Sandra.
+		Sammy. Bruno. Charly.
+		Alan. Ali. Floh.
+		Lucipetra. Bamberg. Schney. Burgkunstadt.
+
+		Tierisch-Aktiv.de
+
+		I will ever love and miss you, Mom.
+		Opa.
+		Oma.
+
+		in love Mikesch.
+		
+		Chuck Schuldiner
+		Rio Reiser
+		Frank Zappa
+		The artist formerly known as prince
+		Björk
+		
+		
+		and all the others I've forgot.
+		
+		
+		Special thanks for Spiritual Healing:
+		Silence of Thoughts
+		Nebel
+		Dawnbreed
+		Monochrome
+		Psychotic Waltz
+		King’s X
+		Die Fantastischen Vier
+		Fettes Brot
+		Iron Maiden
+		
+
+	</value>
   </data>
-  <data name="SettingsPage_PrivacyTermsLink.NavigateUri" xml:space="preserve">
-    <value>https://github.com/electrifier/electrifier/blob/gui_design_initial/LICENSE</value>
+	<data name="SettingsPage_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://github.com/electrifier/electrifier/blob/main/README.md</value>
   </data>
-  <data name="AppNotificationSamplePayload" xml:space="preserve">
+	<data name="AppNotificationSamplePayload" xml:space="preserve">
     <value>&lt;toast launch="action=ToastClick"&gt;
   &lt;visual&gt;
     &lt;binding template="ToastGeneric"&gt;
@@ -203,34 +252,34 @@
   &lt;/actions&gt;
 &lt;/toast&gt;</value>
   </data>
-  <data name="Shell_FilesFolders.Content" xml:space="preserve">
-    <value>Browse your Local Drives</value>
+	<data name="Shell_FilesFolders.Content" xml:space="preserve">
+    <value>Local Drives</value>
   </data>
-  <data name="Shell_Clipboard.Content" xml:space="preserve">
-    <value>Browse your Clipboard History</value>
+	<data name="Shell_Clipboard.Content" xml:space="preserve">
+    <value>Clipboard History</value>
   </data>
-  <data name="BrowseNetwork_NoSelection.Text" xml:space="preserve">
+	<data name="BrowseNetwork_NoSelection.Text" xml:space="preserve">
     <value>Select an item from the list.</value>
   </data>
-  <data name="Shell_BrowseNetwork.Content" xml:space="preserve">
-    <value>Browse your Network Neighborhood</value>
+	<data name="Shell_BrowseNetwork.Content" xml:space="preserve">
+    <value>Network Neighborhood</value>
   </data>
-  <data name="Shell_Notes.Content" xml:space="preserve">
-    <value>Stick your Thoughts and Notes</value>
+	<data name="Shell_Notes.Content" xml:space="preserve">
+    <value>Silence your Thoughts</value>
   </data>
-  <data name="Shell_ListDetails.Content" xml:space="preserve">
-    <value>Listen to some Music</value>
+	<data name="Shell_ListDetails.Content" xml:space="preserve">
+    <value>Hear some Music</value>
   </data>
-  <data name="FilesFolders_NoSelection.Text" xml:space="preserve">
+	<data name="FilesFolders_NoSelection.Text" xml:space="preserve">
     <value>Select an item from the list.</value>
   </data>
-  <data name="ListDetails_NoSelection.Text" xml:space="preserve">
+	<data name="ListDetails_NoSelection.Text" xml:space="preserve">
     <value>Select an item from the list.</value>
   </data>
-  <data name="YourKeePass_Passwords_NoSelection.Text" xml:space="preserve">
+	<data name="YourKeePass_Passwords_NoSelection.Text" xml:space="preserve">
     <value>Select an item from the list.</value>
   </data>
-  <data name="Shell_YourKeePass_Passwords.Content" xml:space="preserve">
-    <value>Your KeePass Passwords</value>
+	<data name="Shell_YourKeePass_Passwords.Content" xml:space="preserve">
+    <value>Keys and Passwords</value>
   </data>
 </root>
