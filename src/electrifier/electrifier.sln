@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "electrifier", "electrifier.csproj", "{634D24D6-9DD9-4902-B5AF-C4A40816D37F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "windows.gui.electrifier", "windows.gui.electrifier.csproj", "{634D24D6-9DD9-4902-B5AF-C4A40816D37F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "electrifier.Core", "..\electrifier.Core\electrifier.Core.csproj", "{8F01104C-7D76-435C-B675-150A8BDF4224}"
 EndProject
