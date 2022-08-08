@@ -13,7 +13,7 @@ Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "windows.gui.electrifier", "
 		LaunchingEngine = 00000000-0000-0000-0000-000000000000
 		UseLegacyDebugEngines = No
 		LaunchSQLEngine = No
-		AttachLaunchAction = No
+		AttachLaunchAction = Yes
 		IORedirection = Auto
 	EndProjectSection
 EndProject
