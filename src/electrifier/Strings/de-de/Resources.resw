@@ -160,13 +160,13 @@
     <value>Open in browser</value>
   </data>
   <data name="Shell_WebView.Content" xml:space="preserve">
-    <value>Surfen</value>
+    <value>Internet</value>
   </data>
   <data name="Settings_Personalization.Text" xml:space="preserve">
     <value>Personalisierung</value>
   </data>
   <data name="Settings_Theme.Text" xml:space="preserve">
-    <value>Thema</value>
+    <value>Design</value>
   </data>
   <data name="Settings_Theme_Light.Content" xml:space="preserve">
     <value>Hell</value>
@@ -181,7 +181,7 @@
     <value>über electrifier</value>
   </data>
   <data name="Settings_AboutDescription.Text" xml:space="preserve">
-    <value>Integrierender Desktop Electrifier</value>
+    <value>eine integrierende Desktop Elektrifizierung</value>
   </data>
   <data name="SettingsPage_PrivacyTermsLink.Content" xml:space="preserve">
     <value>
@@ -254,7 +254,7 @@
 &lt;/toast&gt;</value>
   </data>
   <data name="Shell_FilesFolders.Content" xml:space="preserve">
-    <value>Laufwerke</value>
+    <value>Dateien und Ordner</value>
   </data>
   <data name="Shell_Clipboard.Content" xml:space="preserve">
     <value>Zwischenablage</value>
@@ -263,10 +263,10 @@
     <value>Select an item from the list.</value>
   </data>
   <data name="Shell_BrowseNetwork.Content" xml:space="preserve">
-    <value>Netzwerkumgebung</value>
+    <value>Netzwerk</value>
   </data>
   <data name="Shell_Notes.Content" xml:space="preserve">
-    <value>Silence of Thoughts</value>
+    <value>Stille Gedanken</value>
   </data>
   <data name="Shell_ListDetails.Content" xml:space="preserve">
     <value>Musik</value>
