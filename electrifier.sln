@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "windows.gui.electrifier", "..\..\..\source\repos\tajbender\electrifier\src\electrifier\windows.gui.electrifier.csproj", "{E6B66259-467E-4B97-AFD7-F4A3AAC66867}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "windows.gui.electrifier", "\src\electrifier\windows.gui.electrifier.csproj", "{E6B66259-467E-4B97-AFD7-F4A3AAC66867}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "electrifier.Core", "..\..\..\source\repos\tajbender\electrifier\src\electrifier.Core\electrifier.Core.csproj", "{E8F71EEF-74B4-4660-B291-F00E0CE795F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "electrifier.Core", "\src\electrifier.Core\electrifier.Core.csproj", "{E8F71EEF-74B4-4660-B291-F00E0CE795F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
