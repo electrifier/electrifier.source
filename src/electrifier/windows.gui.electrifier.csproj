@@ -15,7 +15,7 @@
     <EnableMsixTooling>true</EnableMsixTooling>
     <AssemblyVersion>1.22.80</AssemblyVersion>
     <NeutralLanguage>en</NeutralLanguage>
-    <FileVersion>1.22.8,0</FileVersion>
+    <FileVersion>1.22.8.0</FileVersion>
   </PropertyGroup>
   <ItemGroup>
     <Content Remove="Assets\BadgeLogo.scale-100.png" />
